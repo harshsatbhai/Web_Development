@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title> Image Map </title>
+   </head>
+   
+   <body> 
+      <!-- 'usemap' attribute is used to create a relationship between the image and the image map -->
+      <img src = "https://4kwallpapers.com/images/walls/thumbs_3t/20842.jpeg" alt = "Bugatti Chiron" width = "800" height = "450" usemap = "#carmap">
+      
+      <!-- <map> tag defines an image map, an image map is an image with clickable areas -->
+      <map name = "carmap">
+         <area shape = "poly" coords = "455,254,439,264,431,284,428,306,433,327,443,340,459,348,475,338,481,316,481,296,478,276,471,260" 
+         alt = "frontwheel" href = "./bugatti_info files/wheels.html">
+         <area shape = "poly" coords = "641,247,629,258,623,274,622,291,625,308,634,322,643,327,652,321,657,310,661,296,661,274,655,257"
+         alt = "backwheel" href = "./bugatti_info files/wheels.html">
+         <area shape = "poly" coords = "339,263,343,275,393,274,401,261,395,260,377,260,360,261" alt = "right-headlights" 
+         href = "./bugatti_info files/headlights.html">
+         <area shape = "poly" coords = "207,254,229,261,228,270,204,266" alt = "left-headlights" 
+         href = "./bugatti_info files/headlights.html">
+      </map>
+   </body>
+</html>
