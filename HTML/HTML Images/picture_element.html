@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title> picture element </title>
+   </head>
+   
+   <body>
+      <!-- <picture> element gives web developers more flexibility in specifying image resources -->
+      <!-- Each <source> element has a media attribute that defines when the image is the most suitable -->
+      <picture>
+         <source media = "(min-width: 1050px)" srcset = "https://i.insider.com/667b129c50b021b5cae96733?width=800&format=jpeg&auto=webp">
+         <source media = "(min-width: 900px)" srcset = "https://www.celebremagazine.world/wp-content/uploads/2024/06/bugatti_tourbillon_celebre_magazine_world_-800x450.jpg">
+         <img src = "https://robbreport.com/wp-content/uploads/2023/08/2-w.jpg?w=800" alt = "Bugatti Chiron Super Sport" style = "min-width:600px;">
+      </picture>
+   </body>
+</html>
