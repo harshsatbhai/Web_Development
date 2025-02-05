@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> rowspan </title>
+      <style>
+         table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+         }
+      </style>
+   </head>
+   
+   <body>
+      <table style = "width: 100%;">
+         <!-- To make a cell span over multiple rows, use the rowspan attribute -->
+         <!-- The value of the rowspan attribute represents the number of rows to span --> 
+         <tr>
+            <th rowspan = "2"> Name </th>
+            <td> Name1 </td>
+            <td> Name2 </td>
+         </tr>
+         <tr>
+            <td> Name3 </td>
+            <td> Name4 </td>
+         </tr>
+         <tr>
+            <th> Age </th>
+            <td> 20 </td>
+            <td> 21 </td>
+         </tr>
+      
+      </table>
+   </body>
+</html>
