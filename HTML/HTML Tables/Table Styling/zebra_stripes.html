@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Zebra Striped Table </title>
+      <style>
+         table{
+            border-spacing: 0px;   
+         }
+         /* Using the :nth-child(even) selector to style every other table row element */
+         tr:nth-child(even){
+            background-color: #D6EEEE;
+         }
+         th, td{
+            padding: 10px;
+            text-align: left;
+         }
+      </style>
+   </head>
+
+   <body>
+      <table style = "width: 100%;">
+         <tr>
+            <th> Name </th>
+            <th> ID </th> 
+            <th> Age </th>
+         </tr>
+         <tr>
+            <td> ABC </td>
+            <td> 123456 </td>
+            <td> 18 </td>
+         </tr>
+         <tr>
+            <td> XYZ </td>
+            <td> 908942 </td>
+            <td> 20 </td>
+         </tr>
+         <tr>
+            <td> RST </td>
+            <td> 189211 </td>
+            <td> 21 </td>
+         </tr>
+      </table>
+   </body>
+</html>
