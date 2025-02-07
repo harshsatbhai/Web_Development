@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title> Javascript </title>
+      <style> 
+         img{
+            padding-left: 300px; 
+            padding-top: 100px;
+         }
+         p{
+            padding-left: 219px;
+            margin: 3px; 
+         }
+      </style>   
+   </head>
+   
+   <body> 
+      <script> 
+         function book(open){
+            var pic;
+            if(open == 1){
+               pic = "./open_book.jpg";
+               document.getElementById("image").width = "550";
+               document.getElementById("image").style.paddingLeft = "30px";
+            }
+            else{
+               pic = "./close_book.jpg";
+               document.getElementById("image").width = "275";
+               document.getElementById("image").style.paddingLeft = "300px";
+            }
+            document.getElementById("image").src = pic; 
+         }   
+      </script>
+      
+      <img id = "image" src = "./close_book.jpg" height = "350">
+      
+      <p>
+         <button type = "button" onclick = "book(1)"> Book Open </button>
+         <button type = "button" onclick = "book(0)"> Book Close </button>
+      </p>
+   </body>
+</html>
