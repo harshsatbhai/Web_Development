@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+      <title> enctype attribute </title>
+   </head>
+   
+   <body>
+      <!-- The enctype attribute specifies how the form-data should be encoded when submitting it to the server -->
+      <!-- The enctype attribute can be used only if method = "post" -->
+      <form action = "http://localhost/php/" method = "post" enctype = "multipart/form-data"> 
+         <label for = "fname"> First Name: </label><br>
+         <input type = "text" id = "fname" name = "fname"><br><br>
+         <label for = "lname"> Last Name: </label><br>
+         <input type = "text" id = "lname" name = "lname"><br><br>
+         <input type = "submit" value = "Submit">     
+      </form>  
+   </body>
+</html>  

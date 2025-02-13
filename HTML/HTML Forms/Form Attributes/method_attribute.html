@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+      <title> method attribute </title>
+   </head>
+   
+   <body>
+      <!-- The method attribute specifies the HTTP method to be used when submitting the form data -->
+      <h2> GET method </h2> 
+      <!-- The form-data is send as URL variables (with method = "get") -->
+      <!-- The default HTTP method when submitting form data is GET -->
+      <!-- The form values are visible in the address bar of the new browser tab -->
+      <form action = "http://localhost/php/" target = "_blank" method = "get">
+         <label for = "fname"> First Name: </label><br>
+         <input type = "text" id = "fname" name = "fname"><br><br>
+         <label for = "lname"> Last Name: </label><br>
+         <input type = "text" id = "lname" name = "lname"><br><br>
+         <input type = "submit" value = "Submit"><br> <br><br>
+      </form>
+      
+      <h2> POST method </h2>
+      <!-- The form-data is send as HTTP post transaction (with method = "post") -->
+      <!-- The form values are not visible in the address bar of the new browser tab -->
+      <form action = "http://localhost/php/" target = "_blank" method = "post">
+         <label for = "fname"> First Name: </label><br>
+         <input type = "text" id = "fname" name = "fname"><br><br>
+         <label for = "lname"> Last Name: </label><br>
+         <input type = "text" id = "lname" name = "lname"><br><br>
+         <input type = "submit" value = "Submit">
+      </form>
+   </body>
+</html>
