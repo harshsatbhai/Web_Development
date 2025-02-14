@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title> optgroup element </title>
+   </head>
+   
+   <body> 
+      <form action = "http://localhost/php/">
+         <label for = "cars"> Choose Cars: </label> 
+         <select id = "cars" name = "cars" style = "width: 100px">
+            <!-- The <optgroup> tag is used to group related options in a <select> element -->
+            <optgroup label = "German Cars"> 
+               <option value = "audi"> Audi </option>
+               <option value = "bmw"> BMW </option>
+               <option value = "volkswagen" selected> Volkswagen </option>
+            </optgroup>
+            <optgroup label = "American Cars">
+               <option value = "ford"> Ford </option>
+               <option value = "dodge"> Dodge </option>
+               <option value = "cadillac"> Cadillac </option>
+            </optgroup>
+         </select>
+         <br><br>
+         <input type = "submit" value = "Submit">
+      </form>   
+   </body>
+</html>

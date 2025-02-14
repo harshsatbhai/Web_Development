@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title> select element </title>
+   </head>
+   
+   <body> 
+      <form action = "http://localhost/php/" target = "_blank"> 
+         <label for = "cars"> Choose a car: </label>
+         <!-- The <select> element defines a drop-down list -->
+         <!-- The size attribute specifies the number of visible values -->
+         <!-- The multiple attribute allows the user to select more than one value -->
+         <select id = "cars" name = "cars" size = "4" multiple>
+            <!-- The <option> element defines an option that can be selected -->
+            <!-- By default, the first item in the drop-down list is selected -->
+            <!-- To define a pre-selected option, add the selected attribute to the option --> 
+            <option value = "lamborghini"> Lamborghini </option>
+            <option value = "koenigsegg" selected> Koenigsegg </option>
+            <option value = "Mclaren"> McLaren </option>
+            <option value = "porsche"> Porsche </option>
+            <option value = "bmw"> BMW </option>
+            <option value = "ferrari"> Ferrari </option>
+            <option value = "bugatti"> Bugatti </option>     
+         </select><br><br>
+         <input type = "submit" value = "Submit"> 
+      </form>   
+   </body>
+</html>
