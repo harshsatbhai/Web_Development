@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title> type hidden </title>
+   </head>
+   
+   <body> 
+      <form action = "http://localhost/php/">
+         <label for = "fname"> First Name: </label><br> 
+         <input type = "text" id = "fname" name = "fname"><br><br>
+         
+         <!-- The <input type = "hidden"> defines a hidden input field (not visible to a user) -->
+         <!-- A hidden field lets web developers include data that cannot be seen or modified by users when a form is submitted -->
+         <!-- A hidden field often stores what database record that needs to be updated when the form is submitted -->
+         <input type = "hidden" id = "custId" name = "custId" value = "3123">
+           
+         <input type = "submit" value = "Submit">  
+      </form>         
+   </body>
+</html>
