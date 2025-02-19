@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+      <title> pattern attribute </title>
+   </head>
+   <body>
+      <form action = "http://localhost/php/">
+      <label for = "country_code"> Country code: </label>
+      <!-- The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted -->
+      <!-- The pattern attribute works with the following input types: text, date, search, url, tel, email, and password -->
+      <input type = "text" id = "country_code" name = "country_code" pattern = "[A-Z,a-z]{3}" title = "Three letter country code"><br><br>
+      <input type = "submit" value = "Submit">
+      </form>
+   </body>
+</html>
