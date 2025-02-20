@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+      <title> autocomplete attribute </title>
+   </head> 
+   <body>
+      <form action="http://localhost/php/" autocomplete = "on">
+         <label for = "fname"> First name: </label><br>
+         <input type = "text" id = "fname" name = "fname" ><br><br>
+         <label for = "lname"> Last name: </label><br>
+         <input type = "text" id = "lname" name = "lname" ><br><br>
+         <label for = "email"> Email: </label><br>
+         <!-- The input autocomplete attribute specifies whether a form or an input field should have autocomplete on or off -->
+         <!-- The autocomplete attribute works with <form> and the following <input> types: text, search, url, tel, email, password, datepickers, range, and color -->
+         <input type = "email" id = "email" name = "email" autocomplete = "off"><br><br>
+         <input type = "submit" value = "Submit">
+      </form>
+   </body>
+</html>
