@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+      <title> formaction attribute </title>   
+   </head>
+   <body>
+      <form action = "http://localhost/php/">
+      <label for = "fname"> First name: </label>
+      <input type = "text" id = "fname" name = "fname"><br><br>
+      <label for = "lname"> Last name: </label>
+      <input type = "text" id = "lname" name = "lname"><br><br>
+      <input type = "submit" value = "Submit">
+      <!-- The input formaction attribute specifies the URL of the file that will process the input when the form is submitted -->
+      <!-- formaction attribute overrides the action attribute of the <form> element -->
+      <!-- The formaction attribute works with the following input types: submit and image -->
+      <input type = "submit" formaction = "http://localhost/php/" value = "Submit as Admin">
+      </form>
+
+   </body>
+</html>
+
