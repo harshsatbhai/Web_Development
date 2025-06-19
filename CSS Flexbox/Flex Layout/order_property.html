@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">   
+   <head>
+      <meta charset = "UTF-8">
+      <title> Order Property </title>
+      <style>
+         .container{
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            color: white;
+         }
+         .container > *{
+            flex-basis: 200px;
+         }
+         .red{
+            background: red;
+            order: 20
+         }
+         .blue{
+            background: blue;
+            order: 10
+         }
+         .green{
+            background: green;
+         }      
+      </style>
+   </head>
+   
+   <body> 
+      <div class = "container"> 
+         <div class = "red"> Red </div>
+         <div class = "blue"> Blue </div>
+         <div class = "green"> Green </div>   
+      </div>   
+   </body>
+</html>
