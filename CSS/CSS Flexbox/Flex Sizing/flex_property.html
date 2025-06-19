@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">   
+   <head>
+      <meta charset = "UTF-8">
+      <title> Flex Property </title>
+      <style>
+         .container{
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;
+            color: white;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 50vh;
+         }
+         .red{
+            flex: 1 1 0; /* We can write flex: 1; , which is shorthand for flex: 1 1 0; */
+            background: red;
+         }
+         .blue{
+            flex: 1;
+            background: blue;
+         }
+         .green{
+            flex: 1;
+            background: green;
+         }
+         .cyan{
+            flex: 1;
+            background: cyan;
+         }
+         .brown{
+            flex: 1;
+            background: brown;
+         }
+         .yellow{
+            flex: 1;
+            background: yellow;
+         }
+         .orange{
+            flex: 1;
+            background: orange;
+         }
+         .violet{
+            flex: 1;
+            background: violet;
+         }
+         .pink{
+            flex: 1;
+            background: pink;
+         }
+         .indigo{
+            flex: 1;
+            background: indigo;
+         }
+      </style>
+   </head>
+   
+   <body> 
+      <div class = "container"> 
+         <div class = "red"> Red </div>
+         <div class = "blue"> Blue </div>
+         <div class = "green"> Green </div>
+         <div class = "cyan"> Cyan </div> 
+         <div class = "brown"> Brown </div>
+         <div class = "yellow"> Yellow </div>
+         <div class = "orange"> Orange </div>
+         <div class = "violet"> Violet </div>
+         <div class = "pink"> Pink </div>
+         <div class = "indigo"> Indigo </div>
+      </div>   
+   </body>
+</html>
