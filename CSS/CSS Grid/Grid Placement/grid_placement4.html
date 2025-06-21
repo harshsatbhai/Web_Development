@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <meta charset = "UTF-8"/>
+      <title> Grid Placement 3 </title>
+      <style> 
+      .container{
+         height: 50vh;
+         display: grid;
+         gap: 1rem; 
+         grid-template-rows: 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1.5fr;
+      }
+      .grid-item-1{
+         background-color: blue;
+         color: white;
+         font-size: 30px;
+         grid-column-start: 2;
+         grid-column-end: 4;
+         grid-row-start: 1;
+         grid-row-end: 2; 
+      }
+      .grid-item-2{
+         background-color: rgb(195, 0, 255);
+         color: white;
+         font-size: 30px;
+         grid-area: 1 / 1 / 2 / 2;
+      }
+      .grid-item-3{
+         background-color: orange;
+         color: white;
+         font-size: 30px;
+         grid-area: 2 / 2 / 3 / 4;
+      }
+      </style>   
+   </head>
+   
+   <body> 
+      <div class = "container"> 
+         <div class = "grid-item-1"> 1 </div>
+         <div class = "grid-item-2"> 2 </div>
+         <div class = "grid-item-3"> 3 </div>
+      </div>   
+   </body>
+</html>
