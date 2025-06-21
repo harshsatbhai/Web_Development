@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <meta charset = "UTF-8"/>
+      <title> Grid Sizing 2 </title>
+      <style> 
+      .container{
+         display: grid;
+         grid-template-rows: 100px auto; /* auto in row will make row's height as long as the content inside it */ 
+         grid-template-columns: 400px auto; /* auto in column will make second column occupy entire viewport width */
+         gap: 5px; 
+      }
+      .grid-item{
+         background-color: blue;
+         color: white;
+         font-size: 30px;
+      } 
+      </style>   
+   </head>
+   
+   <body> 
+      <div class = "container"> 
+         <div class = "grid-item"> 1 </div>
+         <div class = "grid-item"> 2 </div>
+         <div class = "grid-item"> 3 </div>
+         <div class = "grid-item"> 4 </div>  
+      </div>   
+   </body>
+</html>
