@@ -1,0 +1,129 @@
+body {
+   background-color: rgb(252, 255, 223);
+}
+.card-container {
+   width: 80%;
+   height: 70vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+   top: 12vh;
+   left: 10vw;
+}
+.card {
+   position: relative;
+   height: 55%;
+   width: 26%;
+   border-radius: 20px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.card-content {
+   position: relative;
+   width: 100%;
+   height: 40%;
+   top: 43%;
+}
+.card-content p {
+   position: absolute;
+   top: 28%; 
+   left: 4.8%;
+   width: 90%;
+   color: rgb(99, 99, 99);
+   font-size: 15px;
+   text-align: center;
+   font-style: italic;
+}
+.heading1 {
+   position: absolute;
+   top: 6%;
+   left: 28.5%;
+   margin: 0;
+   padding-left: 4px;
+   font-size: 24px;
+   color: rgb(56, 56, 56);
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
+.heading2 {
+   position: absolute;
+   top: 6%;
+   left: 24%;
+   margin: 0;
+   padding-left: 4px;
+   font-size: 24px;
+   color: rgb(56, 56, 56);
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
+.heading3 {
+   position: absolute;
+   top: 6%;
+   left: 17%;
+   margin: 0;
+   padding-left: 4px;
+   font-size: 24px;
+   color: rgb(56, 56, 56);
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+}
+.burger1 {
+   position: absolute;
+   top: -31%;
+   left: -2.5%;
+   width: 105%;
+   height: 80%;
+}
+.burger2 {
+   position: absolute;
+   top: -31%;
+   left: -23.4%;
+   width: 146%;
+   height: 90%;
+}
+.burger3 {
+   position: absolute;
+   left: -25%;
+   top: -36%;
+   width: 150%;
+   height: 96%;
+}
+.price {
+   position: absolute;
+   left: 9%;
+   bottom: 2%;
+   font-size: 26px;
+   font-weight: bold;
+   color: rgb(56, 56, 56);
+}
+.card button {
+   position: absolute;
+   right: 5.5%;
+   bottom: 7.5%;
+   width: 44%;
+   height: 14.5%;
+   box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+   border: none;
+   border-radius: 8px;
+   text-align: center;
+   background-color: rgb(153, 243, 50);
+   color: rgb(56, 56, 56);
+   font-weight: bold;
+   padding-left: 27px;
+   font-size: 15px;
+}
+.bag {
+   position: absolute;
+   right: 38.5%;
+   bottom: 12%;
+   z-index: 1;
+}
+
+
+
+
+
+
+
